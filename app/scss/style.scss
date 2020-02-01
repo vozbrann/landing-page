@@ -1,0 +1,54 @@
+@import "base";
+@import "variables";
+
+body {
+  font-family: 'Exo', sans-serif;
+}
+
+.header {
+  height: 100vh;
+  background-image: url(img/mountains.png);
+  background-size: cover;
+  background-position: left top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Exo", serif;
+
+  h1 {
+    font-weight: 300;
+    font-size: 4rem;
+    max-width: 800px;
+    text-align: center;
+  }
+
+  .play {
+    opacity: 0.7;
+    font-size: 4rem;
+    color: #323969;
+    margin-bottom: 2rem;
+  }
+
+  button {
+    background-color: #ff6d6d;
+    border: none;
+    color: white;
+    padding: 18px 53px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-family: "Exo", serif;
+    letter-spacing: 3.2px;
+  }
+
+  .text {
+    color: #282828;
+    font-size: 14px;
+    letter-spacing: 0.56px;
+  }
+}
