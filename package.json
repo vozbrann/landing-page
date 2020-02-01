@@ -1,0 +1,23 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vozbrann/landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vozbrann/landing-page/issues"
+  },
+  "homepage": "https://vozbrann.github.io/landing-page",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
