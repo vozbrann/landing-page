@@ -1,23 +1,33 @@
-$orange: #DD5600;
-$yellow: #FFDD57;
-$green: #12A647;
-$turquoise: #07927F;
 $blue: #3273DC;
-$purple: #7e5ea3;
-$red: #F70032;
-$cyan: #209CEE;
+$coral: #ff6d6d;
+$milk: #f6f5f3;
+$darkPurple: #323969;
 $black: hsl(0, 0%, 4%);
 $white: hsl(0, 0%, 100%);
 $light: hsl(0, 0%, 96%);
-$dark: hsl(0, 0%, 21%);
+//$dark: hsl(0, 0%, 21%);
+$dark: #282828;
 
-$primary: $turquoise;
+$primary: $coral;
+$dark-bg: $darkPurple;
 $link: $blue;
-$info: $cyan;
-$success: $green;
-$warning: $yellow;
-$danger: $red;
 
-$colorList: (black: $black, white: $white, light: $light, dark: $dark, primary: $primary, link: $link, info: $info, success: $success, warning: $warning, danger: $danger);
+$colorList: (black: $black, white: $white, light: $light, dark: $dark, primary: $primary, link: $link);
 
-$fontColors: (black: $black, white: $white, light: $light, dark: $dark, primary: $primary, link: $link, info: $info, success: $success, warning: $warning, danger: $danger, purple: $purple, orenge: $orange);
+$fontColors: (black: $black, white: $white, light: $light, dark: $dark, primary: $primary, link: $link);
+
+$gutter: 15px;
+
+$hairline-weight: 100;
+$thin-weight:     200;
+$light-weight:    300;
+$normal-weight:   400;
+$medium-weight:   500;
+$semibold-weight: 600;
+$bold-weight:     700;
+$xbold-weight:    800;
+$black-weight:    900;
+
+$break-small: 320px;
+$break-medium: 768px;
+$break-large: 1024px;
